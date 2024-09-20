@@ -1,1 +1,1 @@
-# alx_html_css_2
+This is for the ALX css_advanced project

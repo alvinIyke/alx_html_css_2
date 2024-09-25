@@ -1,0 +1,1 @@
+The aim of the SmileSchool Website project is to showcase advanced HTML and CSS concepts and techniques. It focuses on semantic HTML5 and CSS. The final product should be visually appealing, responsive and properly structured.

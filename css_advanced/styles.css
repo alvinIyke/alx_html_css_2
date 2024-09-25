@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -56,7 +55,7 @@ nav ul li a {
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('/api/placeholder/1920/1080');
+    background-image: url('images/Object.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -118,6 +117,7 @@ nav ul li a {
 .testimonial {
     background-color: #C271FF;
     padding: 5rem 0;
+    display: flex;
     text-align: center;
 }
 
@@ -126,13 +126,19 @@ nav ul li a {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    margin: auto;
+}
+.testimonial p {
+    justify-content: center;
+    text-align: center;
+
 }
 
 blockquote {
     font-style: italic;
     max-width: 60%;
-    margin: 2rem auto;
-}
+    margin: 1rem auto;
+}   
 
 /* Tutorials Section Styles */
 .tutorials {
@@ -142,7 +148,7 @@ blockquote {
 
 .tutorial-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 2rem;
     padding: 2rem;
 }
@@ -199,6 +205,9 @@ blockquote {
 /* FAQ Section Styles */
 .faq {
     padding: 5rem 0;
+    text-align: center;
+    background-color: #ffffff;
+    color:black;
 }
 
 .faq-grid {
@@ -210,10 +219,11 @@ blockquote {
 
 /* Footer Styles */
 footer {
-    background-color: #071629;
+    background-color: hsl(214, 71%, 9%);
     color: #ffffff;
     text-align: center;
     padding: 2rem 0;
+    position: relative;
 }
 
 .footer-content {
@@ -224,12 +234,15 @@ footer {
 }
 
 .social-icons {
-    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 10px;
 }
 
-.social-icons a {
+.social-icons i {
     color: #ffffff;
-    margin: 0 0.5rem;
+    margin: 0 20px;
+    display: inline;
 }
 
 /* Responsive Design */

@@ -10,7 +10,12 @@ body {
     color: #ffffff;
     background-color: #071629;
 }
-
+.top-section {
+    background-image: url('images/Object.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 .container {
     width: 80%;
     margin: auto;
@@ -19,9 +24,12 @@ body {
 
 /* Header Styles */
 header {
-    background-color: rgba(7, 22, 41, 0.9);
+   
+    background-size: cover;
+    background-position: center top;
+    color: #ffffff;
     padding: 1rem 0;
-    position: fixed;
+    
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -55,7 +63,7 @@ nav ul li a {
 
 /* Hero Section Styles */
 .hero {
-    background-image: url('images/Object.png');
+   
     background-size: cover;
     background-position: center;
     height: 100vh;

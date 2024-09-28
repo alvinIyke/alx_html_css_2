@@ -24,12 +24,10 @@ body {
 
 /* Header Styles */
 header {
-   
     background-size: cover;
     background-position: center top;
     color: #ffffff;
     padding: 1rem 0;
-    
     width: 100%;
     top: 0;
     z-index: 1000;
@@ -63,7 +61,6 @@ nav ul li a {
 
 /* Hero Section Styles */
 .hero {
-   
     background-size: cover;
     background-position: center;
     height: 100vh;
